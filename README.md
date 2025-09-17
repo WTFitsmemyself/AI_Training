@@ -1,40 +1,62 @@
-# AI\_Training
+<h1 align="center">AI_Training</h1>
 
-**AI\_Training** is a Jupyter-Notebook based project for experimenting with Artificial Intelligence and Natural Language Processing (NLP). It provides data visualization, preprocessing, model training, and evaluation workflows to support learning and experimentation.
+<h3 align="center">A Jupyter Notebook–based project for experimenting with AI and NLP</h3>
 
----
+<p align="center">
+  <a href="https://github.com/WTFitsmemyself/AI_Training">
+    <img src="https://img.shields.io/github/stars/WTFitsmemyself/AI_Training?style=flat-square">
+  </a>
+  <a href="https://github.com/WTFitsmemyself/AI_Training/network">
+    <img src="https://img.shields.io/github/forks/WTFitsmemyself/AI_Training?style=flat-square">
+  </a>
+  <a href="https://github.com/WTFitsmemyself/AI_Training/issues">
+    <img src="https://img.shields.io/github/issues/WTFitsmemyself/AI_Training?style=flat-square">
+  </a>
+  <img src="https://img.shields.io/badge/contributions-welcome-orange?style=flat-square">
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/WTFitsmemyself/AI_Training?color=blue&style=flat-square">
+  </a>
+</p>
 
-## 📑 Table of Contents
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-* [Features](#-features)
-* [Repository Structure](#-repository-structure)
+## 📑 Contents
+
+* [Overview](#-overview)
+* [Project Structure](#-project-structure)
 * [Requirements](#-requirements)
 * [Usage](#-usage)
-* [Contributing](#-contributing)
+* [Contributors](#-contributors)
+* [Contribution Guide](#-contribution-guide)
 * [License](#-license)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## ☁️ Overview
+
+**AI\_Training** is a Jupyter Notebook project designed for exploring Artificial Intelligence and Natural Language Processing (NLP).
+It provides workflows for:
+
+* Data visualization and exploratory analysis
+* Text preprocessing and NLP pipelines
+* Model training and evaluation
+* Incremental experimentation with AI techniques
+
+This project is intended both as a **learning resource** and as a **sandbox for AI experiments**.
+
 ---
 
-## ✨ Features
-
-* Data visualization and exploratory analysis with Jupyter Notebooks
-* NLP-oriented workflows for text preprocessing and modeling
-* Example training pipelines for experimenting with AI/ML techniques
-* Organized structure for incremental experiments
-
----
-
-## 📂 Repository Structure
+## 📂 Project Structure
 
 ```
 AI_Training/
 │
-├── NLP/                     # Notebooks and scripts related to NLP tasks
-├── Data Visual.ipynb        # Notebook for data visualization & exploration
-├── .idea/                   # IDE settings (PyCharm, etc.)
-├── .ipynb_checkpoints/      # Auto-generated Jupyter checkpoints
-├── identifier.sqlite        # SQLite database (metadata or storage)
-└── README.md                # Project documentation
+├── NLP/                   # Notebooks and scripts related to NLP tasks
+├── Data Visual.ipynb      # Notebook for data visualization & exploration
+├── .idea/                 # IDE settings (PyCharm, etc.)
+├── .ipynb_checkpoints/    # Jupyter notebook checkpoints
+├── identifier.sqlite      # SQLite database (metadata / storage)
+└── README.md
 ```
 
 ---
@@ -45,77 +67,66 @@ AI_Training/
 * Jupyter Notebook or JupyterLab
 * Recommended libraries:
 
-  * pandas
-  * numpy
+  * pandas, numpy
   * scikit-learn
-  * matplotlib / seaborn
+  * matplotlib, seaborn
   * nltk / spacy / transformers (for NLP tasks)
 
-Install dependencies with:
+Install dependencies (if available):
 
-```bash
+```sh
 pip install -r requirements.txt
 ```
-
-*(Create `requirements.txt` if not already present.)*
 
 ---
 
 ## 🚀 Usage
 
-1. **Clone the repository**
+Clone the repository:
 
-   ```bash
-   git clone https://github.com/WTFitsmemyself/AI_Training.git
-   cd AI_Training
-   ```
+```sh
+git clone https://github.com/WTFitsmemyself/AI_Training.git
+cd AI_Training
+```
 
-2. **Create and activate a virtual environment (optional)**
+Start Jupyter Notebook or Lab:
 
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate     # macOS / Linux
-   venv\Scripts\activate        # Windows
-   ```
+```sh
+jupyter notebook
+# or
+jupyter lab
+```
 
-3. **Install dependencies**
+Open and run the notebooks:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run Jupyter**
-
-   ```bash
-   jupyter notebook
-   ```
-
-   or
-
-   ```bash
-   jupyter lab
-   ```
-
-5. **Explore notebooks**
-
-   * Start with `Data Visual.ipynb` for data insights
-   * Move to `NLP/` notebooks for AI & NLP experiments
+* Begin with `Data Visual.ipynb` for data insights
+* Explore `NLP/` notebooks for text preprocessing and AI model training
 
 ---
 
-## 🤝 Contributing
+## 👥 Contributors
 
-Contributions are welcome!
-To contribute:
+<p align="center">
+  <a href="https://github.com/WTFitsmemyself/AI_Training/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=WTFitsmemyself/AI_Training" />
+  </a>
+</p>
 
-* Open an issue for bugs, improvements, or new feature suggestions
-* Fork the repo and create a feature branch
-* Submit a pull request with clear documentation of your changes
+---
+
+## 📖 Contribution Guide
+
+* Fork the repo and create a branch
+* Add improvements, bug fixes, or new notebooks
+* Submit a pull request
+
+Issues and feature requests are welcome!
 
 ---
 
 ## 📜 License
 
-No license file has been provided. If you are the author, consider adding one (e.g., MIT, Apache 2.0, GPL).
+This project is licensed under the terms of the MIT License.
+See [LICENSE](./LICENSE) for details.
 
----
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
